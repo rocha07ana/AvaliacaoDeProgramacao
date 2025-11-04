@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modelo W3.CSS</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 🔹 BARRA DE NAVEGAÇÃO (TOPO) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Copo Da Felicidade</a>
+
+    <!-- 🔸 Links à direita (ocultos em telas pequenas) -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#Menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#Contato" class="w3-bar-item w3-button">Contato</a>
+    </div>
+  </div>
+</div>
+
+  <!-- 🔹 CONTEÚDO PRINCIPAL -->
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- 🔸 SEÇÃO SOBRE -->
+<div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/4fcbb512be380fd0e8748100fd985cc0.jpg"
+         class="w3-round w3-image"
+         alt="Copo-da-Felicidade-500x340" width="500" height="340">
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">Sobre Nós</h1><br>
+    <p class="w3-large">
+      O <span class="w3-tag w3-light-grey w3-round-large">Copo da Felicidade</span> nasceu do sonho de transformar momentos simples em doces lembranças. 
+      Tudo começou na cozinha de casa, com receitas feitas para amigos e familiares, até que a paixão por criar 
+      novas combinações e sabores tomou forma.  
+      Hoje, seguimos com o mesmo cuidado de sempre: receitas artesanais e um toque de carinho em cada camada.  
+      Usamos apenas ingredientes <span class="w3-tag w3-light-grey w3-round-large">frescos</span> 
+       para garantir o sabor e a qualidade que nossos clientes merecem.
+    </p>
+  </div>
+</div>
+
+<!-- 🔹 Linha separadora após a seção Sobre -->
+<hr>
+
+<!-- 🔸 SEÇÃO CARDÁPIO -->
+<div class="w3-row w3-padding-64" id="Menu">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center">Nosso menu</h1><br>
+
+    <style>
+      /* 🔹 Estilos específicos do Menu */
+      #Menu h4 {
+        letter-spacing: normal;      /* Remove o espaçamento exagerado */
+        text-transform: none;        /* Só a primeira letra maiúscula */
+        font-size: 22px;             /* Aumenta o tamanho, sem negrito */
+        font-weight: normal;         /* Mantém a mesma espessura da fonte */
+        margin-bottom: 6px;
+      }
+
+      #Menu p {
+        font-size: 18px;             /* Mesmo tamanho do restante do site */
+        margin-top: 0;
+      }
+
+      #Menu hr {
+        border: 0;
+        height: 1px;
+        background-color: #ddd;      /* Linha divisória sutil */
+        margin: 20px 0;
+      }
+    </style>
+
+    <h4>Sabor chocolate</h4>
+    <p class="w3-text-grey">
+      Brigadeiro de chocolate, bolo de chocolate — R$ 12,00
+    </p>
+    <hr>
+
+    <h4>Sabor ninho</h4>
+    <p class="w3-text-grey">
+      Brigadeiro branco, bolo de baunilha — R$ 12,00
+    </p>
+    <hr>
+
+    <h4>Sabor dois amores</h4>
+    <p class="w3-text-grey">
+      Brigadeiro de chocolate, brigadeiro branco, bolo de chocolate e bolo de baunilha — R$ 12,00
+    </p>
+    <hr>
+
+    <h4>Sabor óreo</h4>
+    <p class="w3-text-grey">
+      Brigadeiro de chocolate, brigadeiro branco, bolo de chocolate e pedaços de óreo — R$ 12,00
+    </p>
+  </div>
+
+  <div class="w3-col l6 w3-padding-large">
+    <img src="https://i.pinimg.com/736x/87/4b/9c/874b9c43caec50daf09fd757784d18bd.jpg"
+         class="w3-round w3-image"
+         alt="Menu" style="width: 600px; height: 580px;">
+  </div>
+</div>
+
+
+
+        <!-- 🔹 Linha separadora antes da nova seção -->
+    <hr>
+
+    <!-- 🔸 SEÇÃO COMO É O PREPARO -->
+<div class="w3-row w3-padding-64 w3-animate-opacity" id="Preparo">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img src="https://lh3.googleusercontent.com/proxy/Y_aUKShPvC9G4fxMExzaOGtuGmsrf00T72sLSynlwmeVWl8UY9NnGtpZ4HqaXwT75FsIxJw5kFPV-DBBuII8bxEDZ57LP_MCsuUecJYQdU-uZaTJZBPGYQ"
+         class="w3-round w3-image"
+         alt="Como é o Preparo" width="400" height="300">
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">Como é o Preparo</h1><br>
+
+    <!-- Primeiro parágrafo -->
+<p class="w3-large">
+  Nossos copos da felicidade são montados com muito cuidado desde a primeira camada. 
+  Cada ingrediente é preparado no dia, garantindo sabor fresco e saboroso, com textura perfeita.
+</p>
+
+<!-- Segundo parágrafo -->
+<p class="w3-large">
+  Utilizamos chocolates selecionados, frutas frescas e bolos caseiros para criar uma 
+  combinação irresistível de sabores e cores.  
+  Tudo é feito com amor, dedicação e aquele toque artesanal que faz toda a diferença!
+</p>
+
+
+    <!-- Botão -->
+    <div class="w3-center">
+      <a href="#Menu" class="w3-button w3-light-grey w3-round-large">
+        Ver Sabores
+      </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔹 Linha separadora antes da seção Contato -->
+<hr>
+
+<!-- 🔸 SEÇÃO CONTATO -->
+<div class="w3-container w3-padding-64" id="Contato">
+  <h1 class="w3-center">Contato</h1><br>
+
+  <p class="w3-large">
+    Atendemos suas necessidades e garantimos que nossos produtos atendam aos maiores critérios:
+    boa aparência e ótimo sabor. Não deixe de nos contatar!
+  </p>
+
+  <p class="w3-large">
+    Você também pode entrar em contato pelo telefone 
+    <b>(45) 99927-0195</b>, ou enviar uma mensagem por aqui:
+  </p>
+
+  <form action="/action_page.php" target="_blank" class="w3-margin-top">
+    <p>
+      <input class="w3-input w3-padding-16 w3-round-large" type="text" placeholder="Nome" required name="Nome">
+    </p>
+    <p>
+      <input class="w3-input w3-padding-16 w3-round-large" type="number" placeholder="Quantidade de Pessoas" required name="Pessoas">
+    </p>
+    <p>
+      <input class="w3-input w3-padding-16 w3-round-large" type="text" placeholder="Mensagem / Solicitações Especiais" required name="Mensagem">
+    </p>
+    <p class="w3-center">
+      <button class="w3-button w3-light-grey w3-round-xlarge w3-padding-large" type="submit">
+        Confirmar Pedido
+      </button>
+    </p>
+  </form>
+</div>
+
+<!-- 🔸 FIM DO CONTEÚDO -->
+</div>
+
+<!-- 🔹 RODAPÉ -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>
+    Desenvolvido por: 
+    <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" 
+       class="w3-hover-text-green">Ana C, Ana L, Letícia G e Vilson - 2C</a>
+  </p>
+</footer>
